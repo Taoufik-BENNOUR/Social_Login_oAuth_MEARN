@@ -1,0 +1,199 @@
+
+.navbar{
+  height: 50px;
+  background-color: rgb(216, 69, 107);
+  display: flex;
+  color: white;
+  align-items: center;
+  justify-content: space-around;
+}
+.list{
+  display: flex;
+  list-style: none;
+  align-items: center;
+}
+.listItem{
+  margin-left: 20px;
+  font-weight: 500px;
+  cursor: pointer;
+}
+.logo{
+  font-size: 20px;
+  font-weight: bold;
+}
+.link{
+  text-decoration: none;
+  color: inherit;
+}
+.avatar{
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.home{display: flex;
+  flex-wrap: wrap;
+  padding: 50px;
+  justify-content: space-between;
+
+}
+
+.card{
+  width: 30%;
+  margin-top: 20px;
+  -webkit-box-shadow: 0px 9px 21px 6px rgb(216, 69, 107); 
+  box-shadow: 0px 9px 21px 0px rgb(216, 69, 107);
+  border-radius: 30px;
+  position: relative;
+  overflow: hidden;
+
+}
+.title{
+  padding: 5px;
+  background-color: rgba(0, 0, 0,0.7);
+  border-radius: 0 30px;
+  color: white;
+  position:absolute;
+  right: 0;
+  top:0;
+}
+.img{
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+}
+
+.desc{
+  color:rgb(216, 69, 107);
+  margin-bottom: 30px;
+  line-height: 25px;
+
+}
+.cardButton{
+  border: none;
+  border-radius:0 30px;
+  background-color: rgb(216, 69, 107);
+  padding: 10px;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+.post{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.postImg{
+  height: 600px;
+  width: 100%;
+  object-fit: cover;
+  margin-bottom: 20px;
+}
+.postDesc{
+  padding: 0 100px;
+  font-size: 24px;
+  font-weight: 300px;
+  color: gray;
+  margin-top: 50px;
+}
+
+/*login  */
+.login{
+  margin:0 12% ;
+  margin-top: 100px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 20px;
+  padding:0 10px ;
+
+}
+.wrapper{
+-webkit-box-shadow: 0px 9px 21px 6px rgb(216, 69, 107); 
+  box-shadow: 0px 9px 21px 0px rgb(216, 69, 107);  height: 400px;
+  display: flex;
+  align-items: center;
+  width: 700px;
+}
+.left,.right{
+  flex:1;
+  display: flex;
+  flex-direction: column;
+  align-items:  center;
+}
+.center{
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+.or{
+  border: 2px solid grey;
+  border-radius: 50%;
+  padding: 10px;
+  background-color: white;
+  font-weight: bold;
+}
+
+.line{
+  display: flex;
+  width: 0.5px;
+  height: 70%;
+  background-color: grey;
+  position: absolute;
+
+  margin: auto;
+  z-index: -1;
+}
+.loginButton{
+  width: 150px;
+  padding: 15px 25px;
+  border-radius: 5px;
+  color: white;
+  display: flex;
+  align-items: center;
+  margin-bottom:5px;
+  font-weight: bold;
+  cursor: pointer;
+
+}
+.google{
+  background-color: #DB4437;
+}
+.facebook{
+  background-color: #4285F4
+  ;
+}
+.github{
+  background-color: black;
+}
+.fa{
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
+}
+input{
+  width: 200px;
+  padding: 15px 20px;
+  margin-bottom: 20px;
+}
+.sumbit{
+  width: 200px;
+  background-color: rgb(216, 69, 107);
+  padding: 15px 20px;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.loginTitle{
+  position:absolute;
+  top: 0;;
+  color: lightgray;
+}
